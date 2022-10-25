@@ -1,0 +1,118 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Net;
+using System.Security.Cryptography.X509Certificates;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace KartaPracy3b
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+
+            // Zad 1 -------------------------------------------------
+            /*
+            for (int i = 1; i <= 30; i++)
+            {
+                Console.WriteLine($"{i} listopad 2022");
+            }
+            */
+
+            // Zad 2 -------------------------------------------------
+            /*
+            for (int i = 2; i <= 10; i++)
+            {
+                if(i % 2 == 0)
+                {
+                    Console.WriteLine(i * i);
+                }
+            }
+            */
+
+            // Zad 3 -------------------------------------------------
+            /*
+            for (int i = 1000; i <= 9999; i++)
+            {
+                if (i % 379 == 0)
+                {
+                    Console.WriteLine(i);
+                }
+            }
+            */
+
+            // Zad 4 -------------------------------------------------
+            /*
+            for (int i = 100; i <= 999; i++)
+            {
+                if (i % 5 == 0 || i % 6 == 0 || i % 11 == 0)
+                {
+                    Console.WriteLine(i);
+                }
+            }
+            */
+
+            // Zad 5 -------------------------------------------------
+            /*
+            int suma = 0;
+            Console.WriteLine("podaj ile liczb chcesz dodac");
+            int nliczb = int.Parse(Console.ReadLine());
+            for (int i = 0; i < nliczb; i++)
+            {
+                Console.WriteLine("podaj liczbe");
+                int n = int.Parse(Console.ReadLine());
+                suma = suma + n;
+            }
+            Console.WriteLine($"twoja suma to: {suma}");
+            */
+
+            // Zad 6 -------------------------------------------------
+            /*
+            int suma = 0;
+            for (int k = 0; k <= 10; k++)
+            {
+                if(k % 2 == 0)
+                {
+                    suma = suma + k;
+                }
+            }
+            Console.WriteLine(suma);
+            */
+
+            // Zad 7 -------------------------------------------------
+            /*
+            int suma = 0;
+            for (int m = 10; m <= 20; m++)
+            {
+                if (m % 2 == 1)
+                {
+                    suma = suma + m;
+                }
+            }
+            Console.WriteLine(suma);
+            */
+
+            // Zad 8 -------------------------------------------------
+
+            // ???
+
+            // Zad 9 -------------------------------------------------
+            /*
+            int suma = 0;
+            for (int n = 21; n <= 1021; n = n + 100)
+            {
+                suma = suma + n;
+            }
+            Console.WriteLine(suma);
+            */
+
+            // Zad 10 -------------------------------------------------
+
+            // ???
+
+            Console.ReadKey();
+        }
+    }
+}
